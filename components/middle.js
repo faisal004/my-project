@@ -12,7 +12,7 @@ const Middle = () => {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/3">
+            <div className="p-4 md:w-1/3 hover:-translate-y-2 ">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div className="flex items-center mb-3">
                   
@@ -20,16 +20,15 @@ const Middle = () => {
                     Become a whitelist Member   
                   </h2>
                 </div>
-                <div className="flex-grow">
+                <div className="flex-grow font-mono">
                   <p className="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    You can become the early supporter of our website by becoming whitelist member.In return you will get a 5 minute pre-sale period in your nft Collection minting 
                   </p>
                   
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
+            <div className="p-4 md:w-1/3 hover:-translate-y-2 ">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div className="flex items-center mb-3">
                   
@@ -37,16 +36,16 @@ const Middle = () => {
                   Build an NFT Collection  
                   </h2>
                 </div>
-                <div className="flex-grow">
+                <div className="flex-grow font-mono">
                   <p className="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    Build your Nft Collection.If you are whitelisted member you get 5 minute Pre-sale period ,
+                    and guarenteed 1 NFT per transaction.
                   </p>
                   
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3">
+            <div className="p-4 md:w-1/3 hover:-translate-y-2">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                 <div className="flex items-center mb-3">
                   

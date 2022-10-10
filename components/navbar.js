@@ -15,7 +15,7 @@ const Navbar = () => {
             <a className="mr-5 hover:text-gray-900">Third Link</a>
             <a className="mr-5 hover:text-gray-900">Fourth Link</a>
           </nav>
-          <button className="inline-flex font-mono items-center text-white bg-orange-600 border-0 py-1 px-3 focus:outline-none hover:bg-orange-400 rounded text-base mt-4 md:mt-0">
+          <button className="inline-flex font-mono items-center text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500  border-0 py-1 px-3 focus:outline-none hover:bg-orange-400 rounded text-base mt-4 md:mt-0">
             Connect your Wallet
             
           </button>
