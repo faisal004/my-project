@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/Link"
 
 const Navbar = () => {
   return (
@@ -9,11 +10,10 @@ const Navbar = () => {
             
             <span className="ml-3 text-3xl font-mono">CRYPTO DEVS</span>
           </a>
-          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900">First Link</a>
-            <a className="mr-5 hover:text-gray-900">Second Link</a>
-            <a className="mr-5 hover:text-gray-900">Third Link</a>
-            <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center space-x-10 font-mono font-semibold">
+           <Link href={'/whitelist'} className="mr-5 hover:text-gray-900 ">Join the whitelist</Link>
+           <Link href={'/nft'} className="mr-5 hover:text-gray-900">NFT Collection</Link>
+           <Link href={'/ICO'} className="mr-5 hover:text-gray-900">ICO  </Link>
           </nav>
           <button className="inline-flex font-mono items-center text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500  border-0 py-1 px-3 focus:outline-none hover:bg-orange-400 rounded text-base mt-4 md:mt-0">
             Connect your Wallet
