@@ -34,6 +34,7 @@ const Middle = () => {
                     Become a whitelist Member
                   </h2>
                 </div>
+                
                 <div className="flex-grow font-mono">
                   <p className="leading-relaxed text-base">
                     You can become the early supporter of our website by
