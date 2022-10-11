@@ -3,14 +3,14 @@ import Footer from "../components/footer";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return(
+  return (
+    <>
+      <Navbar />
+      <Component {...pageProps} />
 
-  <>
-    <Navbar /> 
-    <Component {...pageProps} /> 
-
-    <Footer/>
-  </>)
+      <Footer />
+    </>
+  );
 }
 
 export default MyApp;
