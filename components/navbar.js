@@ -6,11 +6,12 @@ const Navbar = () => {
     <div className="bg-slate-100">
       <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+         <Link href={'/'}><a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             
             <span className="ml-3 text-3xl font-mono">CRYPTO DEVS</span>
-          </a>
+          </a></Link> 
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center space-x-10 font-mono font-semibold">
+           <Link href={'/currency'} className="mr-5 hover:text-gray-900 ">Build your Cryptocurrency</Link>
            <Link href={'/whitelist'} className="mr-5 hover:text-gray-900 ">Join the whitelist</Link>
            <Link href={'/nft'} className="mr-5 hover:text-gray-900">NFT Collection</Link>
            <Link href={'/ICO'} className="mr-5 hover:text-gray-900">ICO  </Link>
