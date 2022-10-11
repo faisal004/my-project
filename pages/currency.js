@@ -21,7 +21,7 @@ const Currency = () => {
             
           </h2>
           <div className="relative mb-4">
-            <label for="full-name" className=" font-mono leading-7 text-sm text-gray-600">
+            <label htmlFor="full-name" className=" font-mono leading-7 text-sm text-gray-600">
               Currency Name
             </label>
             <input
@@ -34,7 +34,7 @@ const Currency = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label for="email" className=" font-mono leading-7 text-sm text-gray-600">
+            <label htmlFor="email" className=" font-mono leading-7 text-sm text-gray-600">
               Symbol for your Cryptocurrency
             </label>
             <input
@@ -45,7 +45,7 @@ const Currency = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label for="email" className="font-mono leading-7 text-sm text-gray-600">
+            <label htmlFor="email" className="font-mono leading-7 text-sm text-gray-600">
               Amount of token you want to mint.
             </label>
             <input
