@@ -21,6 +21,7 @@ const Whitelist = () => {
               className="object-cover object-center w-full h-full"
               src="./crypto-devs.svg"
               alt="stats"
+              //this is comment
             />
           </div>
         </div>
