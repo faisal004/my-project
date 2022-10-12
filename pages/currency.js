@@ -12,7 +12,7 @@ const Currency = () => {
           <ul className="space-y-1 max-w-md list-disc list-inside text-gray-500 dark:text-gray-400 font-mono">
             <li>Connect your wallet</li>
             <li>Connect your wallet to Goerli test net</li>
-            <li>Enter your currency name,symbol and how many coins you want to mint</li>
+            <li>Enter your currency name,symbol and 1000 crypto currency will be minted</li>
             <li>Make sure you have test ether in your wallet</li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ const Currency = () => {
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
-          <div className="relative mb-4">
+          {/* <div className="relative mb-4">
             <label htmlFor="email" className="font-mono leading-7 text-sm text-gray-600">
               Amount of token you want to mint.
             </label>
@@ -54,7 +54,7 @@ const Currency = () => {
               name="email"
               className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-          </div>
+          </div> */}
           <button className="font-mono text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">
             Mint
           </button>
